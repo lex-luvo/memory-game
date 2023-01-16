@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+
+  <body>
+    <label for="cars">Confirgure the grid size:</label>
+    <select name="cars" id="grid-layout">
+      <optgroup label="2x">
+        <option value="2,2">2x2</option>
+      </optgroup>
+      <optgroup label="3x">
+        <option value="3,2">3x2</option>
+        <option value="3,4">3x4</option>
+      </optgroup>
+      <optgroup label="4x">
+        <option value="4,1">4x1</option>
+        <option value="4,2">4x2</option>
+        <option value="4,3">4x3</option>
+      </optgroup>
+    </select>
+    <button id="start">Start</button>
+
+    <div class="game"></div>
+    <div class ="seconds">Seconds to complete the game: <span class="timer">0</span> </div>
+    
+    <div class="flip">Number of card flips: <span class="flip-count"></span></div>
+
+    <script src="./src/script.js"></script>
+  </body>
+</html>

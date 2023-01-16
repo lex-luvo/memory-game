@@ -1,0 +1,23 @@
+.card {
+  text-align: center;
+  border: 1px solid #ccc;
+  cursor: grab;
+  min-height: 80px;
+  line-height: 80px;
+}
+
+.active {
+  border: 2px solid rgb(1, 1, 36);
+}
+
+.message, .seconds, .flip{
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.game {
+  display: grid;
+  width: 30vw;
+  margin: auto;
+  border: 1px solid #ddd;
+}
