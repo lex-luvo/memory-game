@@ -1,23 +1,29 @@
 {
-  "name": "luvo-spofana-222-memory-game-in-vanilla-js-javascript",
-  "version": "1.0.0",
-  "description": "Memory game web app (222)\r For raw project instructions see: http://syllabus.africacode.net/projects/memory-game/part-1/",
-  "main": "index.js",
+  "name": "memory-game",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "jasmine"
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Umuzi-org/Luvo-Spofana-222-memory-game-in-vanilla-js-javascript.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Umuzi-org/Luvo-Spofana-222-memory-game-in-vanilla-js-javascript/issues"
-  },
-  "homepage": "https://github.com/Umuzi-org/Luvo-Spofana-222-memory-game-in-vanilla-js-javascript#readme",
   "dependencies": {
-    "jasmine": "^4.2.1",
-    "jsdom": "^20.0.0"
+    "next": "15.3.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.1",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.4",
+    "typescript": "^5"
   }
 }
